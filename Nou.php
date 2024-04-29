@@ -25,21 +25,21 @@ class Nou {
                 <!-- Formulario para introducir los datos del nuevo producto -->
                 <form action="Nou.php" method="POST">
                     <div class="mb-3">
-                        <label for="nom" class="form-label">Nombre:</label>
+                        <label for="nom" class="form-label">Nom:</label>
                         <input type="text" name="nom" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="descripcio" class="form-label">Descripción:</label>
+                        <label for="descripcio" class="form-label">Descripció:</label>
                         <input type="text" name="descripcio" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="preu" class="form-label">Precio:</label>
+                        <label for="preu" class="form-label">Preu:</label>
                         <input type="number" name="preu" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="categoria" class="form-label">Categoría:</label>
+                        <label for="categoria" class="form-label">Categoria:</label>
                         <select name="categoria" class="form-select" required>
-                            <option value="1">Electrónicos</option>
+                            <option value="1">Electrònics</option>
                             <option value="2">Roba</option>
                             <!-- Agrega más opciones según sea necesario -->
                         </select>
@@ -48,7 +48,7 @@ class Nou {
                     <input type="submit" value="Guardar" class="btn btn-primary">
                     <!-- Enlace para cancelar -->
                     <a href="Principal.php" class="btn btn-secondary">Cancelar</a>
-                    <a href="Principal.php" class="btn btn-secondary">Volver a Principal</a>
+                    <a href="Principal.php" class="btn btn-secondary">Tornar a Principal</a>
                 </form>
             </div>';
         
