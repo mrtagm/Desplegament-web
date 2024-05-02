@@ -15,7 +15,7 @@ Gestor de base de datos mysql
 Git
 ```
 
-### Instalacón
+### Instalación
 
 Para instalarte el proyecto deves seguir los siguientes pasos:
 
